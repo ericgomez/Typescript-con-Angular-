@@ -40,8 +40,9 @@ export class PlayerService {
   }
 
   editPlayer(newPlayerData: any) {
-    const $key = newPlayerData.$key;
-    delete(newPlayerData.$key)
+    const $key = JSON.stringify(newPlayerData.$key) ;
+    console.log(newPlayerData);
+    delete(newPlayerData.$key);
     this.db.list('/players').update($key, newPlayerData);
   }
 }

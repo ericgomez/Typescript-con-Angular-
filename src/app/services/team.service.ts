@@ -41,7 +41,7 @@ export class TeamService {
 
   editTeam(newTeamData: any) {
     const $key = newTeamData.$key;
-    delete(newTeamData.$key)
+    delete(newTeamData.$key);
     this.db.list('/teams').update($key, newTeamData);
   }
 
