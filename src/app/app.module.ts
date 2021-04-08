@@ -8,10 +8,12 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { PlayerService } from './services/player.service';
 import { TeamService } from './services/team.service';
+import { TeamTableComponent } from './team-table/team-table.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    TeamTableComponent
   ],
   imports: [
     BrowserModule,

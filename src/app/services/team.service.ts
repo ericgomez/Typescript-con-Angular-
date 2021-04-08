@@ -4,7 +4,7 @@ import { Team } from '../interfaces/team';
 import { map } from 'rxjs/operators';
 import { Observable } from 'rxjs';
 // Creamos un objecto con las cabeceras de nuestra tabla
-export const TeamTableHeaders = ['name', 'country', 'players'];
+export const TeamTableHeaders = ['Name', 'Country', 'Players'];
 
 @Injectable({
   providedIn: 'root'
