@@ -25,7 +25,8 @@ export class PlayerTableComponent implements OnInit {
     this.selectedPlayer;
 
     setTimeout(() => {
-      window.location.replace('#open');
+      // Llamamos al modal por medio de su nombre que esta en player-dialog.component.html
+      window.location.replace('#open-modal');
     });
   }
 

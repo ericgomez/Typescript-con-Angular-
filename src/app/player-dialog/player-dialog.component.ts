@@ -18,7 +18,6 @@ export class PlayerDialogComponent implements OnInit {
   public countries = Object.keys(Country).map(key => ({ label: key, key: (Country as any)[key]}));
   public squadNumber = Object.keys(SquadNumber)
     .slice(Object.keys(SquadNumber).length / 2)
-    .slice(Object.keys(SquadNumber).length / 2)
     .map(key => ({
       label: key,
       key: SquadNumber[key as any]
