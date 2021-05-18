@@ -1,4 +1,10 @@
-# Typescript
+#   Curso de TypeScript con Angular por Belatrix
+#### Proyecto del curso
+
+![proyect](https://static.platzi.com/media/landing-projects/Proyecto-typescript.gif)
+
+## Aplicación web para la gestión de un equipo deportivo
+Crearás una aplicación web para gestionar los jugadores de un equipo de fútbol utilizando TypeScript y Angular. Esta webapp te permitirá conocer cómo insertar, actualizar, listar y eliminar registros en una base de datos en Firebase a través de un formulario hecho con Angular y Typescript, para que logres mejorar tus habilidades de programación.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.8.
 
